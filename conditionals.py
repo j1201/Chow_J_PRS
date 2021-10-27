@@ -1,12 +1,16 @@
-temperature = int(input("Enter a number between 0 and 120: "))
+# set up a variable, check its value, and choose a path to follow based on that condition
+temperature = int(input("input a value between 0 and 150: "))
 
-# if water's temp is less than 4, it's frozen
+# compare that number with the following conditions: 
+
 if (temperature <= 4):
 	#water is frozen
-	print("water is a solid") 
-elif (temperature < 100):
-	# water should be a liquid
-	print("water is a liquid")
-else:
-	print("water is a vapor")
+	print("water is a solid (ice)")
 
+elif (temperature < 100):
+	# water is liquid
+	print("water's state is liquid")
+
+else:
+	# water is boiling so it's steam
+	print("water is a vapor")
