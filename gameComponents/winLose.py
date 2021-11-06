@@ -2,14 +2,14 @@ from gameComponents import gameVars
 
 
 def winorlose(status):
-    print("you " + status)
+    print("You " + status)
 
-    choice = input("do you want to play again? y/n: ")
+    choice = input("Do you want to play again٩(｡・ω・｡)و? y/n: ")
 
     if choice == "n":
-        print("========== see ya! (loser) ==========")
+        print("========== Alright. See ya! ╮(╯_╰)╭ ==========")
         exit()
     elif choice == "y":
-        gameVars.playerLives = 5
-        gameVars.computerLives = 5
+        gameVars.playerLives = 2
+        gameVars.computerLives = 2
         gameVars.player = False
