@@ -2,7 +2,7 @@ from gameComponents import gameVars
 
 
 def winorlose(status):
-    print("You " + status)
+    print("\033[2;30;46m You " + status)
 
     choice = input("Do you want to play again٩(｡・ω・｡)و? y/n: ")
 
